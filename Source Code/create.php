@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
   $email = $_POST['email'];
   $phone = $_POST['phone'];
 
-  // Call the controller function to add member
+  // panggil controller
   $result = $controller->createMember($name, $email, $phone);
 
   if ($result) {
