@@ -8,13 +8,13 @@ Aamiin.
 
 ## Desain Program
 
-1. Model (Model.php)
+1. Model (Model.php)\
    Berisi kelas MemberModel yang bertanggung jawab untuk berinteraksi dengan basis data. Di sini, kita memiliki metode untuk menambah, mengambil, memperbarui, dan menghapus data anggota dari tabel mvc. Pada tahap perubahan, ditambahkan metode baru untuk menghapus anggota dan relasi antara tabel anggota dan aktivitas anggota.
-2. Controller (Controller.php)
+2. Controller (Controller.php)\
    Berisi kelas Controller yang bertindak sebagai perantara antara model dan view. Di sini, kita memanggil metode dari model untuk melakukan operasi CRUD pada data anggota. Pada tahap perubahan, ditambahkan metode baru untuk menghapus anggota dan menambahkan relasi antara tabel anggota dan aktivitas anggota.
-3. View (index.php, create.php, edit.php)
+3. View (index.php, create.php, edit.php)\
    Berisi tampilan pengguna untuk menampilkan data, membuat anggota baru, dan memperbarui anggota. Tampilan ini menggunakan Bootstrap untuk tata letak yang responsif dan ramah pengguna. Pada tahap perubahan, tombol delete dimodifikasi untuk memperbarui relasi antara tabel anggota dan aktivitas anggota, dan menambahkan fitur notifikasi penghapusan.
-4. Router (delete.php)
+4. Router (delete.php)\
    Berisi kode untuk menangani operasi penghapusan anggota. Ketika pengguna mengklik tombol delete pada halaman index, mereka diarahkan ke file delete.php yang memproses penghapusan data anggota dan kemudian mengarahkan mereka kembali ke halaman utama setelah menampilkan pesan konfirmasi.
 
 ## Alur Program
